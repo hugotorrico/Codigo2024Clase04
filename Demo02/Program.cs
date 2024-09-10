@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
+﻿
 //Crear una función Sumar los primeros n numeros naturales
 //1+2+3+4+5+...+n;
 int SumarNaturales(int cantidad)
