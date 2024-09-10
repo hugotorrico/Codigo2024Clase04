@@ -36,8 +36,41 @@ int SumarImpares(int cantidad)
     return suma;
 }
 
+
+void CrearTablaMultiplicar(int numero)
+{
+    int cantidad = 12;
+    int i = 1;
+    while (i<=12)
+    {
+        Console.WriteLine(numero + " X " + i + " = " + numero * i);
+        i = i + 1;
+    }
+}
+void CrearTablaMultiplicarReves(int numero)
+{
+  
+}
+//Crear una función usando while Sumar los primeros n numeros cuadrados n=5
+//1+4+9+16+25
+int SumarCuadrados(int cantidad)
+{
+    int i = 1;
+    int suma = 0;
+    int cuadrado = 0;
+    while (i<=cantidad)
+    {
+        cuadrado = i * i;        
+        suma = suma + cuadrado;
+        i++;
+    }
+    return suma;
+}
+
+//Console.WriteLine( SumarCuadrados(3));
+CrearTablaMultiplicar(5);
 //Console.WriteLine( SumarNaturales(5));
 //Console.WriteLine(SumarPares(5));
-Console.WriteLine(SumarImpares(20));//16
+//Console.WriteLine(SumarImpares(20));//16
 
 Console.Read();
