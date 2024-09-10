@@ -17,8 +17,12 @@ double CalcularDistancia(double x1, double y1, double x2, double y2)
 {
     double valor1 = Math.Pow(x2 - x1, 2);
     double valor2 = Math.Pow(y2 - y1, 2);
-    double distancia = Math.Sqrt(valor1 + valor2);    
+    double distancia = Math.Sqrt(valor1 + valor2);
     return distancia;
+}
+double CalcularDistancia2(double x1, double y1, double x2, double y2)
+{ 
+    return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 }
 
 
