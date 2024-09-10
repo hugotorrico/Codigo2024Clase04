@@ -75,7 +75,7 @@ int SumarCuadrados(int cantidad)
 
 //Console.WriteLine( SumarCuadrados(3));
 //CrearTablaMultiplicar(5);
-CrearTablaMultiplicarReves(5);
+//CrearTablaMultiplicarReves(5);
 //Console.WriteLine( SumarNaturales(5));
 //Console.WriteLine(SumarPares(5));
 //Console.WriteLine(SumarImpares(20));//16
