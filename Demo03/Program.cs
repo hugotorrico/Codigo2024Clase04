@@ -33,9 +33,24 @@ void LeerNumeroPositivo()
 //ingresas una nota incorrecta, debes volver a pedir la nota
 void LeerNota()
 {
+    int nota = 0;
+    do
+    {
+        Console.Write("Ingresa una nota válida: ");
+        nota = Convert.ToInt32(Console.ReadLine());
 
+
+        Console.WriteLine (nota < 0);
+        Console.WriteLine(nota > 20);
+
+
+    } while (nota < 0 || nota>20);
+
+    Console.WriteLine("Has ingresado nota: " + nota);
 }
-    LeerNumeroPositivo();
+
+LeerNota();
+//LeerNumeroPositivo();
 
 
 
